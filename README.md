@@ -1,6 +1,6 @@
-# symbolizing-image
+# inverted-horizon
 
-明滅する記号、磨かれる手触り
+反転する地平、明滅する土着
 
 ## Setup
 
