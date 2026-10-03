@@ -13,7 +13,7 @@ const RESOLUTION_PRESETS: Resolution[] = [
   { width: 1280, height: 720, label: '1280x720 (16:9)' },
   { width: 1920, height: 1080, label: '1920x1080 (16:9)' },
 ]
-const DEFAULT_RESOLUTION = RESOLUTION_PRESETS[0]
+const DEFAULT_RESOLUTION = RESOLUTION_PRESETS[1]
 
 const MIN_FPS = 1
 const MAX_FPS = 60
@@ -30,7 +30,7 @@ const DEFAULT_SHOW_CHARS = true
 
 // 展示中、解像度・要求FPSは固定のまま、show cameraとグリッド数だけをランダムに
 // 自動で切り替え続けるモード
-const DEFAULT_EXHIBITION_MODE = false
+const DEFAULT_EXHIBITION_MODE = true
 const EXHIBITION_INTERVAL_MS = 10000
 
 function formatGridLabel(
